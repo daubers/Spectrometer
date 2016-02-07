@@ -1,0 +1,3 @@
+[submodule "StanleyBlade"]
+	path = StanleyBlade
+	url = ./StanleyBlade/
