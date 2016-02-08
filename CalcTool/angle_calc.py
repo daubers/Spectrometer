@@ -3,9 +3,9 @@ import math
 
 
 def calculate_angle_r(lines_per_mm, wavelength):
-    lines_per_m = lines_per_mm*0.
-    seperation = 1/lines_per_m
-    return math.asin(wavelength/seperation)
+    lines_per_m = lines_per_mm*(1/0.001)
+    separation = 1/lines_per_m
+    return math.asin((wavelength*math.pow(10, -9))/separation)
 
 
 def calculate_angle_d(lines_per_mm, wavelength):
